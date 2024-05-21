@@ -1,0 +1,176 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap";
+
+:root {
+    --primary-color: #316ef1;
+    --secondary-color: #ff9500;
+    --background-color: #ffffff07;
+    --button-color: #287aed;
+    --button-hover-color: #0c5ed0;
+    --text-color: #000;
+    --white-color: #fff;
+    --input-padding: 10px;
+    --border-radius: 6px;
+    --font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: var(--font-family);
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./image/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form-container {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 20px;
+}
+
+.form-description {
+    background: var(--white-color);
+    margin-right: 5px;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    color: var(--text-color);
+}
+
+.form-description > div {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 40px;
+}
+
+.form-description > div p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.form-description > div p > span {
+    color: var(--primary-color);
+}
+
+.form-description > div > span {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.form-description > div > span > hr {
+    width: 100%;
+    height: 10px;
+    background: var(--secondary-color);
+}
+
+.form-description > div > h2 span {
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.form-description > div > h2 {
+    line-height: 100%;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.form {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--background-color);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(208, 205, 205, 0.23);
+}
+
+.form-title {
+    text-align: center;
+    color: var(--white-color);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.form-title h1 {
+    font-weight: 600;
+}
+
+.form-title p {
+    color: var(--white-color);
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+
+.form input {
+    width: calc(100% - 20px);
+    padding: var(--input-padding);
+    border-radius: var(--border-radius);
+    margin-bottom: 10px;
+}
+
+.form button {
+    width: 100%;
+    background-color: var(--button-color);
+    color: var(--white-color);
+    padding: var(--input-padding);
+    border-radius: var(--border-radius);
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.form > div > p {
+    font-weight: 300;
+    font-size: 0.89rem;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons div {
+    width: 50px;
+    height: 50px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    display: flex;
+}
