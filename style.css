@@ -54,7 +54,7 @@ body {
     color: var(--text-color);
 }
 
-.form-description > div {
+.form-description>div {
     display: flex;
     justify-content: center;
     align-items: start;
@@ -63,17 +63,17 @@ body {
     gap: 40px;
 }
 
-.form-description > div p {
+.form-description>div p {
     font-weight: 500;
     font-size: 1.2rem;
     margin: 10px 0;
 }
 
-.form-description > div p > span {
+.form-description>div p>span {
     color: var(--primary-color);
 }
 
-.form-description > div > span {
+.form-description>div>span {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -81,23 +81,23 @@ body {
     font-weight: 800;
 }
 
-.form-description > div > span > hr {
+.form-description>div>span>hr {
     width: 100%;
     height: 10px;
     background: var(--secondary-color);
 }
 
-.form-description > div > h2 span {
+.form-description>div>h2 span {
     color: var(--primary-color);
     font-size: 3rem;
     font-weight: 800;
     margin-top: 20px;
 }
 
-.form-description > div > h2 {
+.form-description>div>h2 {
     line-height: 100%;
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 600;)
     margin-top: 20px;
 }
 
@@ -155,7 +155,7 @@ body {
     background-color: var(--button-hover-color);
 }
 
-.form > div > p {
+.form>div>p {
     font-weight: 300;
     font-size: 0.89rem;
     margin-bottom: 15px;
